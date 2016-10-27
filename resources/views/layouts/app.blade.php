@@ -7,11 +7,14 @@
 {{--Si no és diu res d'utilitza aquesta, sino la que es dóna a la secció-show--}}
 
 
-<body>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper" id ="app">
 
-@yield('content')
+    @yield('content')
 
-@include('partials.footer')
+    @include('partials.footer')
+
+</div>
 
 @section('scripts')
     @include('partials.scripts')
