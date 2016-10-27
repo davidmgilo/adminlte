@@ -12,5 +12,10 @@
 @yield('content')
 
 @include('partials.footer')
+
+@section('scripts')
+    @include('partials.scripts')
+@show
+
 </body>
 </html>
