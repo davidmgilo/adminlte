@@ -10,6 +10,8 @@
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper" id ="app">
 
+    @include('partials.mainheader')
+
     @yield('content')
 
     @include('partials.footer')
