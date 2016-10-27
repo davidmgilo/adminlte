@@ -12,6 +12,8 @@
 
     @include('partials.mainheader')
 
+    @include('partials.sidebar')
+
     @yield('content')
 
     @include('partials.footer')
