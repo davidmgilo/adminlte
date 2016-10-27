@@ -11,7 +11,7 @@
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <!-- Site wrapper -->
-<div class="wrapper">
+<div class="wrapper" id ="app">
 
     <header class="main-header">
         <!-- Logo -->
