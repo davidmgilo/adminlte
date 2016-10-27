@@ -1,8 +1,10 @@
 <!doctype html>
 <html lang="en">
 
-@include('partials.htmlheader')
-
+@section('htmlheader')
+   @include('partials.htmlheader')
+@show
+{{--Si no és diu res d'utilitza aquesta, sino la que es dóna a la secció-show--}}
 
 
 <body>
